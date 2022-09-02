@@ -1,140 +1,102 @@
-*{
-    margin: 0;
-    padding: 0;
+ /* Styling the body */
+ * {
+    margin: 1px;
+    padding:0px;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+/* styling the first parallax's
+   height, width and background color */
+   .parallax-1{
     width: 100%;
-    background: rgb(110, 119, 119);
-    background-image: url("https://img.etimg.com/thumb/msid-81666439,width-1200,height-900/industry/healthcare/biotech/healthcare/india-detects-novel-coronavirus-variant.jpg ");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    height: 600px;
+    background-image: url("https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:110% 100%;
+    background-attachment: fixed;
     
-    
-
-
-    
-}
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; 
-    margin: 0;
-}
-.searchBx{
+   }
+   /* styling the title of first parallax */
+   .parallax-1 h2 {
+    margin: auto;
     position: relative;
-    background-color: rgb(255, 255, 255);
-    height: 60px;
-    border-radius: 40px;
-    padding: 10px;
-    margin-bottom: 30px;
-    text-shadow: 0 0 10px #00b3ff,
-                 0 0 10px #00b3ff,
-                 0 0 10px #00b3ff,
-                 0 0 10px #00b3ff,
-                 0 0 10px #00b3ff;
-}
-.searchBx:hover > .searchTxt{
-    width: 240px;
+    left:50px;
+    right:130px;
+    top: 350px;
+    width: 250px;
+    height: 32px;
+    padding: 8px;
+    border-style: ridge;
+    border: 5px inset #f0f0f0;
+    background-color: rgb(246 243 243 / 41%);
+    color:  #f0f0f0;
     text-align: center;
-    color: #00b3ff;
-    font-size: 20px;
-    padding: 0 6px;   
-}
-.searchBtn{
-    color: #fff;
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #2f3640;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-}
-.searchTxt{
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: #000;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-}
-h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: #56d8f5;
-    justify-content:center;
-    align-items:center;
-}
-h1 img{
-    width: 100px;
-    height: 50px;
-}
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   }
+   /* styling the second parallax's height, width and background color */
+   .parallax-2 {
     width: 100%;
-    flex-wrap: wrap;
-}
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100px;
-    width: 25%;
-    margin: 20px;
-    background: rgba(255,255,255,0.2);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-    border-radius: 50px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.25);
-    border-left: 1px solid rgba(255,255,255,0.5);
-    border-top: 1px solid rgba(255,255,255,0.5);
-}
-.box .subtitle, .data{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.87;
-    letter-spacing: 2px;
-    justify-content:center;
-    align-items:center;
-}
-.data{
-    color: rgb(9, 241, 241);
-}
-.death{
-    color: rgb(4, 210, 247);
-}
-.total{
-    color: rgb(3, 238, 247);
-}
-.recovered{
-    color: rgb(5, 191, 238);
-}
-.test{
-    color: rgb(4, 250, 238);
-}
-.active{
-    color: rgb(10, 187, 241);
-}
-.critical{
-    color: rgb(6, 176, 243);
-}
-#flag{
-    display: none;
-}
+    height: 600px;
+    background-image: url("https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+   }
+   
+   /* styling the title of second parallax  */
+   .parallax-2 h2 {
+    margin: auto;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    width: 250px;
+    height: 37px;
+    padding: 10px;
+    border: 5px inset grey;
+    background-color: #5600ff42;
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 30px;
+    font-family: verdana;
+   }
+   .parallax-3{
+    background-image: url("https://images.pexels.com/photos/73873/star-clusters-rosette-nebula-star-galaxies-73873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 
+   }
+   .parallax-3 h2{
+    margin: auto;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    width: 250px;
+    height: 37px;
+    padding: 10px;
+    border: 5px inset grey;
+    background-color:  #5600ff30;
+    color: #f0f0f0;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    font-size: 30px;
+    font-family: verdana;
+   }
+
+   /* styling the content or paragraph  */
+   .para-1 {
+    padding: 80px;
+    background-color: #ffb409;
+    color: black;
+    font-size: 20px;
+    border: 5px inset grey;
+}
+   
+
+   /* styling the content or paragraph */
+   .para-2 {
+    text-align: center;
+    padding:25px;
+    font-size:17px;
+    font-family: verdana;
+    background-color:   #ffb409;
+    color:black;
+    border: 2px solid black;
+   }
